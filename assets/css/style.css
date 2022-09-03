@@ -1,0 +1,81 @@
+/* global values to use in styling */
+:root {
+    --main-background:#021d3d;
+    --secondary-border: #05666f;
+    --main-hover: #df97b7;
+  }
+
+  /* element selectors styling*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-background);
+  color: #fff;
+  height: 175px;
+}
+
+header p{
+    margin: 30px 0 10px 0;
+    font-size: 29px;
+}
+h1 {
+    font-size: 200%;
+  }
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    justify-content: center;
+    
+}
+footer{
+    display: flex;
+    background-color: var(--main-background);
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color:#fff;
+}
+
+
+/* id selectors */
+#main-box{
+    margin: 0 auto 0 auto;
+    border: 1px solid #000;
+    min-width: 760px;
+    border-radius: 10px;
+    padding: 29px 10px 30px 20px;
+}
+
+#main-box h2{
+   
+    font-size: 33px;
+}
+#results{
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 20px 0 20px 30px;
+    border-top: 2px solid #7c7a7a;
+    font-size: 22px;
+}
+#quiz li{
+    margin:20px;
+    padding: 12px 0 12px 20px;
+    color: rgb(249, 244, 244);
+    border-radius: 5px;
+    background-color: rgb(68, 46, 103);
+    max-width: 200px;
+    font-weight: bold;
+
+}
+#quiz li:hover{
+    box-shadow: 7px 7px 2px var(--main-hover);
+    cursor: pointer;
+    opacity: 90%;
+}
