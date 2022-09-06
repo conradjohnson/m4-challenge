@@ -33,8 +33,7 @@ let highScores = [];
 
 let quizIndex = 0;
 let localHighScores = [];
-//temp set for clearing localstorage highscores
-localStorage.setItem("highScores", "");
+
 
 quizBox.addEventListener("click", clickHandler);
 
