@@ -74,6 +74,7 @@ footer{
     font-weight: bold;
 
 }
+/* cool hover effect for selecting the list item */
 #quiz li:hover{
     box-shadow: 7px 7px 2px var(--main-hover);
     cursor: pointer;
