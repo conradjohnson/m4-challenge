@@ -1,3 +1,5 @@
+
+// grab html elements for 
 let mainBox = document.querySelector("#main-box");
 let mainQuestion = document.querySelector("#main-question");
 let quizList = document.querySelector("#quiz-ol");
@@ -5,13 +7,10 @@ let quizBox = document.querySelector("#quiz");
 let secondsBox = document.querySelector("#seconds-left");
 let questionResult = document.querySelector("#question-result");
 
-
 let currentScore = 0;
 
 let secondsLeft = 60;
 let stopTimer = false;
-
-
 
 let questions = [
     {question: "Commonly used data types DO NOT include:", answers:["strings","booleans","alerts","numbers" ], correctAnswer:"2"},
@@ -34,7 +33,8 @@ let highScores = [];
 
 let quizIndex = 0;
 let localHighScores = [];
-
+//temp set for clearing localstorage highscores
+localStorage.setItem("highScores", "");
 
 quizBox.addEventListener("click", clickHandler);
 
@@ -142,9 +142,11 @@ function quizStart(){
     // set localStorage and variable for current score to 0
     localStorage.setItem("currentScore", "0");
     startTimer();
+    currentScore = 0;
     stopTimer = false;
     secondsLeft = 60;
     quizIndex = 0;
+
     populateQuiz(quizIndex);
     return true;
 }
