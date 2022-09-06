@@ -1,4 +1,3 @@
-This is a MEANINGFUL README.md
 
 <a name="top"></a>
 
