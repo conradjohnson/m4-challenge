@@ -21,17 +21,17 @@ This is a MEANINGFUL README.md
     <a href="https://github.com/conradjohnson/m4-challenge/issues">Request Feature</a>
     <br/><br/><br/>
     Screen Grab 1:<br/>
-    <img src="assets/images/screen1.png" alt="Screen Grab 1" />
+    <img src="assets/img/screen1.png" alt="Screen Grab 1" />
     <br/>
     <br/>
     <br/>
     Screen Grab 2:<br/>
-    <img src="assets/images/screen2.png" alt="Screen Grab 2" />
+    <img src="assets/img/screen2.png" alt="Screen Grab 2" />
     <br/>
     <br/>
     <br/>
     Screen Grab 3:<br/>
-    <img src="assets/images/screen3.png" alt="Screen Grab 3" />
+    <img src="assets/img/screen3.png" alt="Screen Grab 3" />
     <br/>
     <p>(<a href="#top">back to top</a>)</p>
    
